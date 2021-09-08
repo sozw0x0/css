@@ -1,0 +1,58 @@
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.header {
+  position: static;
+  margin:25px 25px ;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 24px;
+  color: navy;
+}
+.header__ttl {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav--item {
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 24px;
+}
+.card {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  margin: 25px 25px;
+}
+.card__img img {
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  width: 50%;
+  display: block;
+  margin: 0 0 0 auto;
+}
+
+.card__content--text {
+  position: absolute;
+  top: 30%;
+  font-size: 48px;
+  font-weight: -10%;
+  align-items: center;
+  margin:100px 0 0 0 ;
+}
+
+.card__content--img {
+  position: absolute;
+  top:60%;
+  width: 75%;
+  height: 30%;
+  background-color: navy;
+}
